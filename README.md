@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jev Agent (Jagent) is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://jev-agent.com/api-access
+Jev Agent (Jagent) is an independent relay offering access to TypeSafe AI’s Jev decision model. It provides API keys without waitlists or credit cards, enabling developers to integrate Jev’s choice, score, and noul decision capabilities via its own gateway or directly through TypeSafe. The service includes documentation, playground, pricing plans, and various use‑case demos, positioning itself as a convenient front‑end for the Jev model.
+
+**Areas:** AI API · Classification · Token Billing · Developer Tools
+
+## Jev Agent (Jagent) on APIs.io
+
+Everything profiled for Jev Agent (Jagent) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jev-agent/](https://apis.io/providers/jev-agent/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Jev Agent (Jagent) API](https://apis.io/apis/jev-agent/jev-agent-api/) — Jev Agent (Jagent) API as documented publicly: 13 operations. Contract generated from the documentation by API Evangelist (2026-10-18); not the provider's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1ModelsResponse](https://apis.io/schemas/jev-agent/jev-agent-get-api-v1-models-response/)
+- [PostApiV1DecisionsRequest](https://apis.io/schemas/jev-agent/jev-agent-post-api-v1-decisions-request/)
+- [PostApiV1SystemoneRequest](https://apis.io/schemas/jev-agent/jev-agent-post-api-v1-systemone-request/)
+- [PostApiV1ToolsResumeCheckResponse](https://apis.io/schemas/jev-agent/jev-agent-post-api-v1-tools-resume-check-response/)
+- [PostV1DecisionsRequest](https://apis.io/schemas/jev-agent/jev-agent-post-v1-decisions-request/)
+- [PostV1SystemoneResponse](https://apis.io/schemas/jev-agent/jev-agent-post-v1-systemone-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Jev Agent Context](https://apis.io/jsonld/jev-agent/jev-agent-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Jev Agent (Jagent) API Rules](https://apis.io/rules/jev-agent/jev-agent-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jev Agent Authentication](https://apis.io/security/jev-agent/jev-agent-authentication/)
+- [Jev Agent Domain Security](https://apis.io/security/jev-agent/jev-agent-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Jev Agent Plans Pricing](https://apis.io/plans/jev-agent/jev-agent-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Jev Agent Rate Limits](https://apis.io/rate-limits/jev-agent/jev-agent-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://jev-agent.com/api-access)
+- [Documentation](https://jev-agent.com/docs)
+- [Getting started](https://jev-agent.com/getting-started)
+- [API reference](https://jev-agent.com/api-reference)
+- [Pricing](https://jev-agent.com/pricing)
+- [Terms of service](https://jev-agent.com/terms)
+- [Privacy policy](https://jev-agent.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 53.1** — developing · rubric 0.24.0 · scored 2026-10-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 53.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 60.0 |
+
+**Agent readiness 23.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jev-agent/](https://apis.io/providers/jev-agent/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jev Agent (Jagent): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jev-agent/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
